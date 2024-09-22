@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3; /* Fundo da página azul claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: rgb(221, 207, 98); /*Cor do fundo do formulario*/
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(5, 4, 5);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(8, 1, 1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 15px;
+    border: 2px solid #11528f; /* Borda azul de 2px */
+    border-radius:30px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #47c336;
+}
+
+.preferences label {
+    display: block;
+    margin-bottom: 3px;
+    color: rgb(3, 8, 2);
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="text"]#outras_preferencias {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+}
+
+.save-button {
+    background-color: green; /* Botao verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.clear-button {
+    background-color: red; /* Botao vermelho */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #006400;
+}
+
+.clear-button:hover {
+    background-color: #cc0000;
+}
